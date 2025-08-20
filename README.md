@@ -40,3 +40,37 @@ The project includes: ✅ **Multiple regression algorithms** (Linear Regression,
 * 📦 Dill – Model Serialization
 * 🐳 Docker – Containerization
 * ☁️ AWS CLI – Cloud Integration
+
+## 📂 Project Structure
+
+```bash
+📦 Student-Performance/
+├── application.py          # Flask entry point
+├── Dockerfile              # Docker setup
+├── requirements.txt        # Dependencies
+├── setup.py                # Package setup
+├── notebook/               # Notebooks & dataset
+│   ├── data/StudentsPerformance.csv
+│   ├── 1_EDA.ipynb
+│   └── 2_Model_Training.ipynb
+├── templates/              # HTML templates
+│   ├── index.html
+│   └── home.html
+├── Source/                 # Core ML pipeline
+│   ├── Components/
+│   │   ├── data_ingestion.py
+│   │   ├── data_transformation.py
+│   │   └── model_trainer.py
+│   ├── pipeline/
+│   │   ├── train_pipeline.py
+│   │   └── predict_pipeline.py
+│   ├── exception.py
+│   ├── logger.py
+│   └── utils.py
+├── artifacts/              # Trained model & preprocessor
+│   ├── model.pkl
+│   └── preprocessor.pkl
+├── logs/                   # Log files
+├── .gitignore
+└── .ebextensions/
+    └── python.config
