@@ -15,6 +15,13 @@ The goal is to build a robust regression pipeline that can generalize well and p
 
 The project includes: ✅ **Multiple regression algorithms** (Linear Regression, Ridge, Lasso, Random Forest, Gradient Boosting, XGBoost, etc.) ✅ **ML Pipelines** for preprocessing + modeling ✅ **Flask web application** for user interaction ✅ **Dockerized Deployment** for Run anywhere with a single container.
 
+## 📊 Example Prediction
+
+| gender	|  race/ethnicity | parental level	|   lunch	   | prep course	|   reading score   | 	writing score   |
+|---------|-----------------|-----------------|------------|--------------|-------------------|-------------------|
+|  female	|      group B	  |   bachelor's	  |  standard	 |  completed	  |        72	        |          74       |
+
+**➡️ Predicted Math Score: 🎯 78.5**
 
 
 
