@@ -84,4 +84,26 @@ git clone https://github.com/SK1240/Student_performance_prediction
 cd Student-Performance
 ```
 
+### 2️⃣ Create Virtual Environment
 
+```
+python -m venv venv
+source venv/bin/activate   # On Linux/Mac
+venv\Scripts\activate      # On Windows
+```
+
+### 3️⃣ Install Dependencies
+
+```
+pip install -r requirements.txt
+```
+
+### 4️⃣ Run Flask App
+
+```
+python application.py
+```
+🌍 Access App:
+ [🏠 To Check Visit Home →](http://127.0.0.1:5000/)
+ [🎯 To Check Predict →](http://127.0.0.1:5000/predictdata)
+ 
