@@ -45,11 +45,12 @@ The project includes: ✅ **Multiple regression algorithms** (Linear Regression,
 
 ```bash
 📦 Student-Performance/
+├── .gitignore
 ├── application.py          # Flask entry point
-├── Dockerfile              # Docker setup
-├── requirements.txt        # Dependencies
+├── Dockerfile              # Docker container setup
+├── requirements.txt        # python Dependencies
 ├── setup.py                # Package setup
-├── notebook/               # Notebooks & dataset
+├── notebook/               # jupyter Notebooks & dataset
 │   ├── data/StudentsPerformance.csv
 │   ├── 1_EDA.ipynb
 │   └── 2_Model_Training.ipynb
@@ -58,19 +59,29 @@ The project includes: ✅ **Multiple regression algorithms** (Linear Regression,
 │   └── home.html
 ├── Source/                 # Core ML pipeline
 │   ├── Components/
-│   │   ├── data_ingestion.py
-│   │   ├── data_transformation.py
-│   │   └── model_trainer.py
+│   │   ├── data_ingestion.py          # Data ingestion & train/test split
+│   │   ├── data_transformation.py     # Preprocessing pipelines
+│   │   └── model_trainer.py           # Model training & evaluation
 │   ├── pipeline/
-│   │   ├── train_pipeline.py
-│   │   └── predict_pipeline.py
-│   ├── exception.py
-│   ├── logger.py
-│   └── utils.py
+│   │   ├── predict_pipeline.py        # Inference pipeline for predictions
+│   │   └── train_pipeline.py          # Inference pipeline for training
+│   ├── exception.py                   # Custom exception handling 
+│   ├── logger.py                      # Logging utility
+│   └── utils.py                       # Helper functions (save/load/eval)
 ├── artifacts/              # Trained model & preprocessor
-│   ├── model.pkl
-│   └── preprocessor.pkl
+│   ├── model.pkl                      # Trained ML model
+│   └── preprocessor.pkl               
 ├── logs/                   # Log files
-├── .gitignore
-└── .ebextensions/
-    └── python.config
+```
+
+
+## ⚙️ Setup & Installation
+
+## 1. Clone the Repository
+
+```
+git clone https://github.com/SK1240/Student_performance_prediction
+cd Student-Performance
+```
+
+
