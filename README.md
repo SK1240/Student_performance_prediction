@@ -77,7 +77,7 @@ The project includes: ✅ **Multiple regression algorithms** (Linear Regression,
 
 ## ⚙️ Setup & Installation
 
-## 1. Clone the Repository
+### 1. Clone the Repository
 
 ```
 git clone https://github.com/SK1240/Student_performance_prediction
