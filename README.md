@@ -77,7 +77,7 @@ The project includes: ✅ **Multiple regression algorithms** (Linear Regression,
 
 ## ⚙️ Setup & Installation
 
-### 1. Clone the Repository
+### 1️⃣. Clone the Repository
 
 ```
 git clone https://github.com/SK1240/Student_performance_prediction
@@ -111,7 +111,7 @@ python application.py
 🎯To Check Predict: 👉 [http://127.0.0.1:5000/predictdata](http://127.0.0.1:5000/predictdata)
 
 
-## 🧩 Pipeline Workflow
+## 🔄 Pipeline Workflow
 
 1. **Data Ingestion** (`data_ingestion.py`)
 
@@ -147,3 +147,6 @@ python application.py
     • `exception.py`: Custom structured exception handling.                    
     • `logger.py`: Timestamped logging with rotating logs.                
     • `utils.py`: Save/load objects, evaluate models. 
+
+
+## 🔮 Future Enhancements
