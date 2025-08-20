@@ -151,7 +151,7 @@ python application.py
 
 ## 🔮 Future Enhancements
 
-📊 Explainability with SHAP/LIME <br>
-☁️ Complete AWS Deployment (Elastic Beanstalk / ECS) <br>
-🎨 Interactive Dashboards with React or Streamlit <br>
-🎯 Multi-Target Prediction (Reading + Writing + Math)
+* 📊 Explainability with SHAP/LIME 
+* ☁️ Complete AWS Deployment (Elastic Beanstalk / ECS) 
+* 🎨 Interactive Dashboards with React or Streamlit 
+* 🎯 Multi-Target Prediction (Reading + Writing + Math)
