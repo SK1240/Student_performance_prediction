@@ -103,7 +103,10 @@ pip install -r requirements.txt
 ```
 python application.py
 ```
-🌍 Access App:
- [🏠 To Check Visit Home →](http://127.0.0.1:5000/)
- [🎯 To Check Predict →](http://127.0.0.1:5000/predictdata)
- 
+
+### 🌍 Access App:
+
+To Check Visit   : 👉 [Open App](http://127.0.0.1:5000/)
+
+To Check Predict : 👉 [Try Prediction](http://127.0.0.1:5000/predictdata)
+
