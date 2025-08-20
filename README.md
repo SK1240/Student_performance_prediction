@@ -155,3 +155,13 @@ python application.py
 * ☁️ Complete AWS Deployment (Elastic Beanstalk / ECS) 
 * 🎨 Interactive Dashboards with React or Streamlit 
 * 🎯 Multi-Target Prediction (Reading + Writing + Math)
+
+## 🐳 Docker Hub
+
+https://hub.docker.com/r/karthi14/student_performance
+
+---
+
+## 📜 License
+
+This project is not licensed for public use.
