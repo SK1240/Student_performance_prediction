@@ -114,30 +114,36 @@ python application.py
 ## 🧩 Pipeline Workflow
 
 1. **Data Ingestion** (`data_ingestion.py`)
+
     • Reads raw dataset (`StudentsPerformance.csv`).                      
     • Splits into train/test datasets.                    
     • Stores CSVs in `artifacts/`.   
 
 2. **Data Transformation** (`data_transformation.py`)
+
     • Handles missing values with `SimpleImputer`.                      
     • Scales numerical columns (`StandardScaler`).                         
     • Encodes categorical features (`OneHotEncoder`).                        
     • Saves preprocessing pipeline as `preprocessor.pkl`. 
 
 3. **Model Training** (`model_trainer.py`)
+
     • Trains multiple regression algorithms.                      
     • Uses **GridSearchCV/RandomizedSearchCV** for hyperparameter tuning.                               
     • Selects best model and saves as `model.pkl`.  
 
-4. **Prediction Pipeline** (`predict_pipeline.py`)
+4. **Prediction Pipeline** (`prediction_pipeline.py`)
+
     • Loads trained model + preprocessor.                      
     • Accepts user input, preprocesses, and predicts math score.  
 
 5. **Flask Application** (`application.py`)
+
     • Web form to input features.                                  
     • Displays prediction results. 
 
 6. **Custom Utilities**
+
     • `exception.py`: Custom structured exception handling.                    
     • `logger.py`: Timestamped logging with rotating logs.                
     • `utils.py`: Save/load objects, evaluate models. 
