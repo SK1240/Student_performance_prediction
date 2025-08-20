@@ -32,4 +32,11 @@ The project includes: ✅ **Multiple regression algorithms** (Linear Regression,
 * 🐳 Dockerized deployment (runs anywhere)
 
 
+## 🛠️ Tech Stack
 
+* 🖥️ Python 3.11+
+* 🌐 Flask – Web Framework
+* 📚 Scikit-learn, XGBoost, CatBoost – ML & Preprocessing
+* 📦 Dill – Model Serialization
+* 🐳 Docker – Containerization
+* ☁️ AWS CLI – Cloud Integration
