@@ -16,9 +16,9 @@ from xgboost import XGBRegressor
 from sklearn.svm import SVR
 from sklearn.model_selection import RandomizedSearchCV
 
-from src.exception import CustomException
-from src.logger import logging
-from src.utills import save_object,eval_model
+from Source.exception import CustomException
+from Source.logger import logging
+from Source.utills import save_object,eval_model
 
 @dataclass
 class ModelTrainerConfig:
