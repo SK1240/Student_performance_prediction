@@ -23,5 +23,13 @@ The project includes: ✅ **Multiple regression algorithms** (Linear Regression,
 
 **➡️ Predicted Math Score: 🎯 78.5**
 
+## 🚀 Key Features
+
+* ✨ End-to-end ML pipeline: Ingestion → Preprocessing → Training → Prediction
+* 📊 Comparative analysis of multiple regression models
+* ⚙️ Hyperparameter tuning for optimization
+* 🌐 Flask Web App for real-time predictions
+* 🐳 Dockerized deployment (runs anywhere)
+
 
 
