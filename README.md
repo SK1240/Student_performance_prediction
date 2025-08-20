@@ -106,7 +106,8 @@ python application.py
 
 ### 🌍 Access App:
 
-To Check Visit   : 👉 [Open App](http://127.0.0.1:5000/)
+🏠To Check Home: 👉 [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
-To Check Predict : 👉 [Try Prediction](http://127.0.0.1:5000/predictdata)
+🎯To Check Predict: 👉 [http://127.0.0.1:5000/predictdata](http://127.0.0.1:5000/predictdata)
+
 
