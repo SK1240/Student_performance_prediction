@@ -81,7 +81,7 @@ The project includes: ✅ **Multiple regression algorithms** (Linear Regression,
 
 ```
 git clone https://github.com/SK1240/Student_performance_prediction
-cd Student-Performance
+cd Student_performance_prediction
 ```
 
 ### 2️⃣ Create Virtual Environment
